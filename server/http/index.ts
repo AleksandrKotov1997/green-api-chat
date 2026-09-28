@@ -1,2 +1,2 @@
-export * from "./greenApiResponse";
-export * from "./request";
+export * from "./greenApiResponse.js";
+export * from "./request.js";
