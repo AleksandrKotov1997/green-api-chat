@@ -1,5 +1,8 @@
-import { deleteNotification } from "../server/greenApi";
-import { createGreenApiResponse, getRequestBody } from "../server/http";
+import { deleteNotification } from "../server/greenApi/index.js";
+import {
+  createGreenApiResponse,
+  getRequestBody,
+} from "../server/http/index.js";
 
 export async function POST(request: Request): Promise<Response> {
   const body = await getRequestBody(request);

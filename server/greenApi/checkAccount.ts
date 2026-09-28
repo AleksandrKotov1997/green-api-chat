@@ -1,4 +1,4 @@
-import { requestGreenApi } from "./client";
+import { requestGreenApi } from "./client.js";
 
 type Params = {
   idInstance: string;

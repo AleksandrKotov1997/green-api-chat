@@ -6,6 +6,10 @@
 
 В задании основным мессенджером указан MAX, при этом разрешено использовать Telegram или WhatsApp, если интеграция с MAX недоступна. В проекте используется Telegram через GREEN-API, а внешний вид интерфейса выполнен с ориентацией на web-версию MAX.
 
+## Демо
+
+https://green-api-chat-sage.vercel.app
+
 ## Возможности
 
 - ввод `idInstance` и `apiTokenInstance`;
